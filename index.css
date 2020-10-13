@@ -1,0 +1,127 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: white;
+}
+
+header{
+	width: 100vw;
+	height: 60px;
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+height: 40px;
+width: 40px;
+padding-top: 16;
+margin-right: 15px;
+justify-content: left;
+}
+
+header > div {
+	display: flex;
+	height: 30px;
+	justify-content: center;
+	margin: 10px;
+	justify-content: left;
+	padding-top: px;
+}
+
+header ul {
+	display: flex;
+	width: 300px;
+	
+}
+
+.navbuttons {
+	display: inline-flex;
+	font-size: 17px;
+	margin-left: 5px;
+	text-align: justify;
+	color: white;
+}
+.box{
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	margin: 4px;
+	display: flex;
+	flex-direction: row
+}
+
+.Container-2 {
+	border-color: black;
+	border-bottom: .1px solid;
+	display: inline-flex;
+	width: 100vw;
+	height: 20vh;
+	background-color: white;
+}
+li {
+	list-style-type: none;
+	text-align: right;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.box-2 {
+	background-color: white;
+	height: 20px;
+	width: 70px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.profile-picture {
+	margin-left: 25px;
+	margin-top: 10px;
+	height: 250px;
+	width: 250px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.third-line li {
+	text-align: left;
+	margin-top: 15px;
+	color: blue;
+}
+.box1 {
+	margin-left: 356px;
+	margin-top: -245px;
+	height: 200px;
+	width: 345px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	
+}
+
+.box2 {
+	height: 200px;
+	width: 345px;
+	margin-left: 705px;
+	margin-top: -200px;
+	box-sizing: border-box;
+	border: 1px solid black
+}
+
+.box3 {
+	height: 200px;
+	width: 345px;
+	margin-top: 4px;
+	margin-left: 356px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.box4 {
+	height: 200px;
+	width: 345px;
+	margin-left: 705px;
+	margin-top: -200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
